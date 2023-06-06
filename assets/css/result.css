@@ -1,0 +1,67 @@
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Light-Grey: hsl(217, 12%, 63%);
+    --Medium-Grey: hsl(216, 12%, 54%);
+    --Dark-Grey: hsl(208, 20%, 19%);
+    --Dark-Blue: hsl(215, 22%, 15%);
+    --Very-Dark-Blue: hsl(216, 12%, 8%);
+    --orange: hsl(25, 97%, 53%);
+    --font-family1: 'Overpass', sans-serif;
+    }
+    @font-face {
+        font-family: overpass;
+        src: url();
+    }
+    body{
+        background-color: var(--Very-Dark-Blue);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    
+    }
+    .container{
+        width: 450px;
+        height: 450px;
+        background-color: var(--Dark-Blue);
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .logo{
+        width: 200px;
+        margin-top: 25px;
+        
+    }
+    .resultBox{
+        margin-top: 30px;
+        background-color: var(--Dark-Grey);
+        width: 300px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+    }
+    .rateResult{
+        font-family: var(--font-family1);
+        color: var(--orange);
+        font-size: 18px;
+        letter-spacing: 2px;
+    
+    }
+    h1{
+      font-family: var(--font-family1);
+      font-weight: 700;
+      color: var(--White);
+    }
+    h2{
+        font-family: var(--font-family1);
+        font-weight: 400;
+        font-size: 18px; 
+        color: var(--Light-Grey);
+        text-align: center;
+        line-height: 30px;
+      }

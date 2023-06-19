@@ -84,3 +84,7 @@ h2{
     font-family: var(--font-family1);
     color: var(--Light-Grey);
   }
+  .selected{
+    background-color: var(--orange) ;
+    color: var(--Very-Dark-Blue);
+  }

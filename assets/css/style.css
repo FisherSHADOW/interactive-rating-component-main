@@ -53,6 +53,23 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+.rate:hover{
+    background-color: var(--Light-Grey);
+    transform: scale(1.1);    
+    
+}
+.rate:hover >p{
+    color: var(--Very-Dark-Blue);
+    transform: scale(1.1);
+}
+.resultContainer{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+
 }
 .submitBtn{
     width: 80%;
@@ -66,6 +83,14 @@ body{
     color: var(--White);
     font-size: 16px;
     letter-spacing: 2px;
+    cursor: pointer;
+    transition: all 300ms ease-in-out; 
+}
+.submitBtn:hover{
+    background-color: var(--White);
+    color: var(--orange);
+    padding: 0 100px;
+    /* transform: scale(1.1); */
 }
 h1{
   font-family: var(--font-family1);
@@ -86,5 +111,42 @@ h2{
   }
   .selected{
     background-color: var(--orange) ;
-    color: var(--Very-Dark-Blue);
+  }
+  .selected >p{
+    color: var(--Very-Dark-Blue)
+  }
+  #cardsBack{
+    width: 450px;
+    height: 400px;
+    background-color: var(--Dark-Blue);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    display: none;
+}
+.logo{
+    margin-top: 40px;
+    margin-left: 135px;
+}
+  .p2Title{
+    text-align: center;
+    font-family: var(--font-family1);
+    font-weight: 700;
+    font-size: 25px;
+    color: var(--White);
+  }
+  .p2Text{
+    text-align: center;
+    margin-top: -15px;
+  }
+  .rateResult{
+    margin: 40px auto;
+    background-color: var(--Dark-Grey);
+    color: var(--orange);
+    border-radius: 25px;
+    padding: 5px 15px;
+    text-align: center;
+    width: 200px;
+    
   }

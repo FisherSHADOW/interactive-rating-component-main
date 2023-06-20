@@ -27,7 +27,7 @@
     />
   </head>
   <body>
-    <main>
+    <main id="cardsFront">
       <div id="frontSide" class="container">
         <div class="iconContainer"><i class="fa-solid fa-star"></i></div>
         <h1>How did we do?</h1>
@@ -53,9 +53,26 @@
             <p>5</p>
           </div>
         </div>
-        <button class="submitBtn" onclick="submit">SUBMIT</button>
+        <button class="submitBtn" onclick="submit()">SUBMIT</button>
       </div>
     </main>
+
+    <div id="cardsBack" class="resultContainer">
+      <img
+        class="logo"
+        src="./assets/images/illustration-thank-you.svg"
+        alt="Feed back icon"
+      />
+      <div class="resultBox">
+        <p id="rateResult" class="rateResult"></p>
+      </div>
+      <p class="p2Title">Thank you!</p>
+      <p class="p2Text">
+        We appreciate you taking the time to give a rating.<br />
+        if you ever need more support, dont hesitate to <br />
+        get in touch
+      </p>
+    </div>
 
     <script src="./assets/js/main.js"></script>
   </body>

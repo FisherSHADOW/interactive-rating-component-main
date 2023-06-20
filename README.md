@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-interactive-rating-component-O32P2jqg7i)
-- Live Site URL: [Add live site URL here](https://fishershadow.github.io/interactive-rating-component-main/)
+- Solution URL: (https://www.frontendmentor.io/solutions/responsive-interactive-rating-component-O32P2jqg7i)
+- Live Site URL: (https://fishershadow.github.io/interactive-rating-component-main/)
 
 ## My process
 

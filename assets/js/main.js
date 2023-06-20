@@ -45,10 +45,9 @@ function submit() {
     if (selectedId==0) {
         alert('please select an score')
         
-    }else{front.style.display='none'
+    }else{
+    front.style.display='none'
     back.style.display='block'
-    rateResult.innerText='You selected '+selectedId+' out of 5'}
-    
-    
-
+    rateResult.innerText='You selected '+selectedId+' out of 5'
+}
 }
